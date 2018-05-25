@@ -1,8 +1,9 @@
 # .vim
 My Vim configuration. Works with Vim, but some plugins require [Neovim][neovim].
+This repo was ~~totally stolen from~~ borrowed from https://github.com/aspyrx/.vim
 
 ### Installation
-1. Clone the repository: `git clone https://github.com/aspyrx/.vim ~/.vim`
+1. Clone the repository: `git clone https://github.com/edgykuma/.vim ~/.vim`
 2. Symlink `~/.vimrc` to the `.vimrc` in this repository:
    `ln -s ~/.vim/.vimrc ~/.vimrc`
 3. `cd ~/.vim`
