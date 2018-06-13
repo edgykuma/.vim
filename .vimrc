@@ -32,8 +32,8 @@ set backspace=indent,eol,start  "Better backspacing
 set linebreak  "Intelligently wrap long files
 set nostartofline "Vertical movement preserves horizontal position
 set number "Line numbers
-set relativenumber "Relative line numbers
-set conceallevel=1 "Enable concealing characters
+"set relativenumber "Relative line numbers
+"set conceallevel=1 "Enable concealing characters
 set nowrap "Don't wrap lines
 set sidescroll=1 "Smooth scrolling
 set listchars=extends:,precedes: "Overflow indicators
@@ -43,11 +43,11 @@ set mouse=a "Enable mouse support
 set showtabline=2 "File tabs always visible
 
 " Turn on/off relative line numbers automatically
-augroup numbertoggle
-    autocmd!
-    autocmd WinEnter,FocusGained,InsertLeave * set relativenumber
-    autocmd WinLeave,FocusLost,InsertEnter   * set norelativenumber
-augroup END
+"augroup numbertoggle
+"    autocmd!
+"    autocmd WinEnter,FocusGained,InsertLeave * set relativenumber
+"    autocmd WinLeave,FocusLost,InsertEnter   * set norelativenumber
+"augroup END
 
 let mapleader = "\<Space>"
 let g:mapleader = "\<Space>"
@@ -117,7 +117,7 @@ command W w
 command Q q
 
 " Highlight lines that are over 80 characters long
-set colorcolumn=81
+"set colorcolumn=81
 
 " Always show status bar
 set laststatus=2
