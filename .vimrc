@@ -115,6 +115,7 @@ command WQ wq
 command Wq wq
 command W w
 command Q q
+command JSON %!python -m json.tool
 
 " Highlight lines that are over 80 characters long
 "set colorcolumn=81
