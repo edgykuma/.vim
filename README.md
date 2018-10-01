@@ -5,7 +5,8 @@ This repo was ~~totally stolen from~~ borrowed from https://github.com/aspyrx/.v
 ### Installation
 1. Clone the repository: `git clone https://github.com/edgykuma/.vim ~/.vim`
 2. Symlink `~/.vimrc` to the `.vimrc` in this repository:
-   `ln -s ~/.vim/.vimrc ~/.vimrc`
+   `cd ~`
+   `ln -s ./.vim/.vimrc ./vimrc`
 3. `cd ~/.vim`
 4. Fetch the dependency plugins: `git submodule update --init --recursive`
 
