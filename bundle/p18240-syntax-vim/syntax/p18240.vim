@@ -33,7 +33,7 @@ syn match p18240Comment		";.*" contains=p18240Todo
 " with '.', including the GCC auto-generated '.L' labels.
 syn match p18240PseudoOp		"\.\%(org\|dw\|equ\)"
 
-syn match p18240Instr              "\%(add\|addsp\|and\|ashr\|bra\|brc\|brn\|brv\|brz\|cmi\|cmr\|decr\|incr\|jsr\|lda\|ldi\|ldr\|ldsf\|ldsp\|lshl\|lshr\|mov\|neg\|not\|or\|pop\|push\|rol\|rtn\|sta\|stop\|str\|stsf\|stsp\|sub\|xor\)"
+syn match p18240Instr              "\<\%(add\|addsp\|and\|ashr\|bra\|brc\|brn\|brv\|brz\|cmi\|cmr\|decr\|incr\|jsr\|lda\|ldi\|ldr\|ldsf\|ldsp\|lshl\|lshr\|mov\|neg\|not\|or\|pop\|push\|rol\|rtn\|sta\|stop\|str\|stsf\|stsp\|sub\|xor\)\>"
 
 syn match p18240Reg                "\<r[0-7]\>"
 
