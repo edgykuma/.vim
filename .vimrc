@@ -242,5 +242,5 @@ let g:markdown_fenced_languages = [
             \ 'html', 'js=javascript', 'jsx=javascript', 'c', 'asm', 'arm', 'sh'
             \ ]
 
-set term=screen-256color
+set term=xterm-256color
 set t_ut=
