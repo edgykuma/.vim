@@ -6,9 +6,9 @@ colorscheme meta5
 autocmd ColorScheme * highlight ColorColumn guifg=#ffffff guibg=#303030 ctermbg=238 "custom colorcolumn color
 
 set encoding=utf-8 "UTF-8 character encoding
-set tabstop=2  "2 space tabs
-set shiftwidth=2  "2 space shift
-set softtabstop=2  "Tab spaces in no hard tab mode
+set tabstop=4  "4 space tabs
+set shiftwidth=4  "4 space shift
+set softtabstop=4  "Tab spaces in no hard tab mode
 set expandtab  " Expand tabs into spaces
 set autoindent  "autoindent on new lines
 set showmatch  "Highlight matching braces
@@ -61,6 +61,9 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Bind F5 to inserting current timestamp
+nnoremap <F5> "=strftime("%c")<CR>p
 
 if (!has("nvim"))
 	" vim-specific configs
