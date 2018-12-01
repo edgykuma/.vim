@@ -67,3 +67,6 @@
 [submodule "bundle/verilog_systemverilog.vim"]
 	path = bundle/verilog_systemverilog.vim
 	url = https://github.com/vhda/verilog_systemverilog.vim
+[submodule "bundle/p18240-syntax-vim"]
+	path = bundle/p18240-syntax-vim
+	url = git@github.com:edgykuma/p18240-syntax-vim.git
