@@ -5,6 +5,7 @@ if [ -f .vimrc ]; then
     echo "Old .vimrc saved as .vimrc.bak"
 fi
 ln -s .vim/.vimrc .vimrc
+echo "Symlinked .vimrc"
 cd ~/.vim
 echo "Updating submodules..."
 git submodule update --init --recursive
