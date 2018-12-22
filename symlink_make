@@ -1,5 +1,10 @@
 #!/bin/bash
 cd ~
+if [ -f .vimrc ]; then
+    mv .vimrc .vimrc.bak
+    echo "Old .vimrc saved as .vimrc.bak"
+fi
 ln -s .vim/.vimrc .vimrc
 cd ~/.vim
+echo "Updating submodules..."
 git submodule update --init --recursive
