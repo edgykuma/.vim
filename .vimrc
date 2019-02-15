@@ -4,6 +4,7 @@ execute pathogen#infect()
 colorscheme meta5
 
 autocmd ColorScheme * highlight ColorColumn guifg=#ffffff guibg=#303030 ctermbg=238 "custom colorcolumn color
+autocmd BufNewFile,BufRead *.asm set ft=p18240
 
 set encoding=utf-8 "UTF-8 character encoding
 set tabstop=4  "4 space tabs
@@ -214,12 +215,12 @@ au Syntax * RainbowParenthesesLoadBraces
 
 " vim-javascript
 let g:javascript_enable_domhtmlcss = 1
-let g:javascript_conceal_function   = "ƒ"
-let g:javascript_conceal_null       = "ø"
-let g:javascript_conceal_this       = "@"
-let g:javascript_conceal_return     = "←"
-let g:javascript_conceal_undefined  = "¿"
-let g:javascript_conceal_prototype  = "¶"
+"let g:javascript_conceal_function   = "ƒ"
+"let g:javascript_conceal_null       = "ø"
+"let g:javascript_conceal_this       = "@"
+"let g:javascript_conceal_return     = "←"
+"let g:javascript_conceal_undefined  = "¿"
+"let g:javascript_conceal_prototype  = "¶"
 
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
@@ -241,6 +242,8 @@ nnoremap <silent> <leader>lN :silent! try<bar>lprev<bar>catch /^Vim\%((\a\+)\)\=
 let g:markdown_fenced_languages = [
             \ 'html', 'js=javascript', 'jsx=javascript', 'c', 'asm', 'arm', 'sh'
             \ ]
+
+autocmd BufRead,BufNewFile *.v set filetype=verilog
 
 set term=xterm-256color
 set t_ut=
