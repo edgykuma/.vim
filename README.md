@@ -12,6 +12,11 @@ This repo was ~~totally stolen from~~ borrowed from https://github.com/aspyrx/.v
 3. `cd ~/.vim`
 4. Fetch the dependency plugins: `git submodule update --init --recursive`
 
+You may also just run the shell script in this directory:
+```bash
+./symlink_make
+```
+
 If you're using Neovim, then you should also symlink your Neovim configuration
 directory (by default, `~/.config/nvim`) to `~/.vim`.
 

@@ -63,6 +63,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Bind F5 to inserting current timestamp
+nnoremap <F5> "=strftime("%c")<CR>p
+
 if (!has("nvim"))
 	" vim-specific configs
     set nocompatible  "Kill vi-compatibility
