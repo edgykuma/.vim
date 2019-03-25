@@ -67,12 +67,12 @@
 [submodule "bundle/verilog_systemverilog.vim"]
 	path = bundle/verilog_systemverilog.vim
 	url = https://github.com/vhda/verilog_systemverilog.vim
-[submodule "bundle/p18240-syntax-vim"]
-	path = bundle/p18240-syntax-vim
-	url = git@github.com:edgykuma/p18240-syntax-vim.git
 [submodule "bundle/vim-copy-as-rtf"]
 	path = bundle/vim-copy-as-rtf
 	url = https://github.com/zerowidth/vim-copy-as-rtf
 [submodule "bundle/vim-monochrome-light"]
 	path = bundle/vim-monochrome-light
 	url = https://github.com/kcsongor/vim-monochrome-light
+[submodule "bundle/risc240-syntax-vim"]
+	path = bundle/risc240-syntax-vim
+	url = https://github.com/edgykuma/risc240-syntax-vim.git
