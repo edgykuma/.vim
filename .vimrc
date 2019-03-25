@@ -4,7 +4,8 @@ execute pathogen#infect()
 colorscheme meta5
 
 autocmd ColorScheme * highlight ColorColumn guifg=#ffffff guibg=#303030 ctermbg=238 "custom colorcolumn color
-autocmd BufNewFile,BufRead *.asm set ft=p18240
+" Comment out this line for normal .asm files
+autocmd BufNewFile,BufRead *.asm set ft=risc240
 
 set encoding=utf-8 "UTF-8 character encoding
 set tabstop=4  "4 space tabs
