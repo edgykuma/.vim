@@ -1,7 +1,11 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
-colorscheme meta5
+set termguicolors
+
+colorscheme gruvbox
+set background=dark
+"colorscheme meta5  "Old color scheme
 
 autocmd ColorScheme * highlight ColorColumn guifg=#ffffff guibg=#303030 ctermbg=238 "custom colorcolumn color
 " Comment out this line for normal .asm files
