@@ -55,6 +55,13 @@ set showtabline=2 "File tabs always visible
 "    autocmd WinLeave,FocusLost,InsertEnter   * set norelativenumber
 "augroup END
 
+" Only has line highlight on active pane
+augroup BgHighlight
+    autocmd!
+    autocmd WinEnter * set cul
+    autocmd WinLeave * set nocul
+augroup END
+
 let mapleader = "\<Space>"
 let g:mapleader = "\<Space>"
 
