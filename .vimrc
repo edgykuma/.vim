@@ -158,6 +158,7 @@ let g:lightline = {
             \   'filetype': 'LightLineFiletype',
             \   'fileencoding': 'LightLineFileencoding',
             \ },
+            \ 'colorscheme': 'seoul256',
             \ 'separator': { 'left': '', 'right': '' },
             \ 'subseparator': { 'left': '', 'right': '' }
             \ }
