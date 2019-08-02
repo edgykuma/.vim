@@ -122,6 +122,9 @@ nmap <leader>w :w!<cr>
 " Strip whitespace from end of lines when writing file
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Double-tap space to turn off search highlighting
+nnoremap <leader><space> :noh<cr>
+
 " Syntax highlighting and stuff
 filetype plugin indent on
 syntax on
