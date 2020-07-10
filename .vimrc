@@ -125,6 +125,11 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Double-tap space to turn off search highlighting
 nnoremap <leader><space> :noh<cr>
 
+" Double-tap t to turn off auto linebreak
+nnoremap tt :set formatoptions-=t<cr>
+" Double-tap T to turn on auto linebreak
+nnoremap TT :set formatoptions+=t<cr>
+
 " Syntax highlighting and stuff
 filetype plugin indent on
 syntax on
