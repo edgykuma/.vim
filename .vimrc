@@ -130,6 +130,9 @@ nnoremap tt :set formatoptions-=t<cr>
 " Double-tap T to turn on auto linebreak
 nnoremap TT :set formatoptions+=t<cr>
 
+" Insert line of 80 '='
+nnoremap LB o<ESC>80A=<ESC>
+
 " Syntax highlighting and stuff
 filetype plugin indent on
 syntax on
